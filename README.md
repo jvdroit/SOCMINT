@@ -6,6 +6,8 @@ This is a tool to narrow down information after it has been gathered.
 
 Make sure notes are detailed before proceeding, otherwise it will likely end up getting re-created. 
 
+Create a folder in the program directory named "Images"
+
 Store the cover image intended for the report in the ./Images folder.
 
 python3 -n <Target_Name> -i <Cover_image.png>
