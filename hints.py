@@ -37,7 +37,8 @@ def main():
         # --------------------------------------
         _legal_name = input(" Legal name? : ")
         _dob = input(" Date of birth? : ")
-        _pronoun = input(" Preferred pronoun? : ") 
+        _pronoun = input(" Preferred pronoun? : ")
+        _birthplace = input(" Place of birth? : ") 
         _usernames  = input(" Known usernames? : ")
         _nicknames = input(" Known nicknames? : ")
         _emails = input(" Email addresses? : ")
@@ -133,7 +134,7 @@ def main():
             report += "<div class='col'>"
             report += "<img src='../Images/"
             report += str(image_source)
-            report += "' class='bg-info mx-auto d-block' alt='Alt_name'>"
+            report += "' class='img-thumbnail mx-auto d-block' alt='Alt_name'>"
             report += "</div></div>\n"
             report += "<br>"
             report += "<hr data-content='H.I.N.T.S' class='solid'>"
@@ -162,6 +163,13 @@ def main():
             report += "<h4>Pronoun: <h4></div>"
             report += "<div class='col'><h5>"
             report += str(_pronoun)
+            report += "</h5></div></div>\n"
+            # Place of birth
+            report += "<div class='row justify-content-center'>\n"
+            report += "<div class='col'>"
+            report += "<h4>Place of birth: <h4></div>"
+            report += "<div class='col'><h5>"
+            report += str(_birthplace)
             report += "</h5></div></div>\n"
             # Usernames
             report += "<div class='row justify-content-center'>\n"
@@ -361,7 +369,8 @@ def main():
         except Exception as e:
             print(f"Error encountered...\nReview the following: {str(e)}")
 
-        print("Hopefully that worked!")
+        print("Report generated successfull! ")
+        print("Take a look in ./Reports. ")
     else:
         print("Damn, back to the drawing board. ")
 
