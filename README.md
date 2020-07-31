@@ -10,7 +10,7 @@ Create a folder in the program directory named "Images"
 
 Store the cover image intended for the report in the ./Images folder.
 
-python3 -n <Target_Name> -i <Cover_image.png>
+`python3 -n <Target_Name> -i <Cover_image.png>`
 
 Just follow along and answer as best you can. Blanks are fine. Just an HTML wrap that can/should be easily modified.
 ![alt text](https://github.com/nins3i/HINTS/blob/master/usage.png)
