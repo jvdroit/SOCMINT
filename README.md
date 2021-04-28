@@ -216,4 +216,4 @@ Project Link: [https://github.com/jadekeys/HINTS](https://github.com/jadekeys/HI
 [issues-url]: https://github.com/jadekeys/HINTS/issues
 [license-shield]: https://img.shields.io/github/license/jadekeys/HINTS.svg?style=for-the-badge
 [license-url]: https://github.com/jadekeys/HINTS/blob/master/LICENSE.txt
-[product-screenshot]: images/project.png
+[product-screenshot]: images/home.png
