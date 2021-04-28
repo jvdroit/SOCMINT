@@ -96,7 +96,6 @@ A list of commonly used resources that I find helpful are listed in the acknowle
 ## Getting Started
 
 While running, this application houses an administrative interface at http://localhost:1337
-The default credentials are "hintsadmin@hints.com" : "HINTSx007$" without quotes.
 
 The HINTS web interface can be found at http://localhost:3000
 
@@ -139,7 +138,15 @@ Clone the repo
    ```sh
    npm run develop
    ```
+4. Set Admin User
+5. Once logged in, browse to Settings under the General tab on the sidebar to the left
+6. Next, browse to Roles under the Users & Permissions Plugin section
+7. Select Public
+8. Scroll down to permissions, find HUMINT, and select the "Select All" checkbox
+9. Scroll up to the top of the page and save
 
+NOTE: Yes yes i know this is a worst practice. 
+Soon the strapi JWT generation will be incorporated into the process to provide authorization. Soon...
 
 Running the development mode makes troubleshooting far easier. This is still a work in progress.
 
