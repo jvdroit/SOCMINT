@@ -1,0 +1,114 @@
+{
+  "kind": "collectionType",
+  "collectionName": "humints",
+  "info": {
+    "name": "Humint",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "email": {
+      "type": "email"
+    },
+    "description": {
+      "type": "text"
+    },
+    "date": {
+      "type": "date"
+    },
+    "pronoun": {
+      "type": "string"
+    },
+    "birthplace": {
+      "type": "string"
+    },
+    "known_usernames": {
+      "type": "string"
+    },
+    "irl_nicknames": {
+      "type": "string"
+    },
+    "online_aliases": {
+      "type": "string"
+    },
+    "phone_number": {
+      "type": "biginteger"
+    },
+    "home_address": {
+      "type": "string"
+    },
+    "work_address": {
+      "type": "string"
+    },
+    "top_ten_contacts": {
+      "type": "text"
+    },
+    "personal_social_media": {
+      "type": "text"
+    },
+    "family_tree": {
+      "type": "text"
+    },
+    "group_affiliations": {
+      "type": "text"
+    },
+    "known_recent_traumas": {
+      "type": "text"
+    },
+    "relationship_status": {
+      "type": "string"
+    },
+    "known_children": {
+      "type": "text"
+    },
+    "recent_promotions": {
+      "type": "text"
+    },
+    "known_health_issues": {
+      "type": "text"
+    },
+    "estimated_income": {
+      "type": "biginteger"
+    },
+    "estimated_expenses": {
+      "type": "biginteger"
+    },
+    "recent_transactions_of_interest": {
+      "type": "text"
+    },
+    "bank_info": {
+      "type": "text"
+    },
+    "liability_angles": {
+      "type": "text"
+    },
+    "estimated_credit_rating": {
+      "type": "biginteger"
+    },
+    "ip_addresses": {
+      "type": "richtext"
+    },
+    "bluetooth_ids": {
+      "type": "richtext"
+    },
+    "ssids": {
+      "type": "richtext"
+    },
+    "imeis": {
+      "type": "richtext"
+    },
+    "embarrassing": {
+      "type": "richtext"
+    },
+    "nsfw": {
+      "type": "richtext"
+    }
+  }
+}
