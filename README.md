@@ -144,6 +144,7 @@ Clone the repo
 7. Select Public
 8. Scroll down to permissions, find HUMINT, and select the "Select All" checkbox
 9. Scroll up to the top of the page and save
+10. Return to http://localhost:3000 and add a first entry
 
 NOTE: Yes yes i know this is a worst practice. 
 Soon the strapi JWT generation will be incorporated into the process to provide authorization. Soon...
@@ -154,6 +155,8 @@ Running the development mode makes troubleshooting far easier. This is still a w
 <!-- ROADMAP -->
 ## Roadmap
 
+* Exception Handling
+* Input validation, formatting, and cleanup
 * Facelift (I'm clearly a noob, help!)
 * Better logo
 * Image upload for entries
