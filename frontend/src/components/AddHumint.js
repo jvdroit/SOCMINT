@@ -1,55 +1,5 @@
 import React from "react";
 
-// Aliases
-
-// Phone Number
-
-// Home Address
-
-// Work Address
-
-// Top 10 Contacts
-
-// Personal Social Media
-
-// Living Family Tree
-
-// Affiliations
-
-// Trauma
-
-// Relationship Status
-
-// Childrens Information
-
-// Recent Promotions
-
-// Health Issues
-
-// Income
-
-// Expenses
-
-// Transactions of Interest
-
-// Bank Information
-
-// Liability Angles
-
-// Credit Rating
-
-// IP Addresses
-
-// Bluetooth IDs
-
-// SSIDs
-
-// IMEIs
-
-// Embarrassing 
-
-// NSFW
-
 class AddHumint extends React.Component {
   state = {
     name: "",
@@ -257,13 +207,6 @@ class AddHumint extends React.Component {
             />
           </div>
 
-          
-
-
-
-
-
-
           <div className="field">
             <label>Known Recent Traumas</label>
             <input
@@ -450,14 +393,6 @@ class AddHumint extends React.Component {
               onChange={(e) => this.setState({ nsfw: e.target.value })}
             />
           </div>
-
-
-
-
-
-
-
-
 
 
           <button className="ui inverted button secondary">Add</button>

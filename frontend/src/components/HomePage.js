@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import humints from "../images/humints.png";
 import documentation from "../images/documentation.png";
-import osint from "../images/osint.png";
+import orgint from "../images/orgint.png";
 
 
 // page that has more info per entry
@@ -36,19 +36,22 @@ const HomePage = () => {
 
     <div className="column">
       <div className="ui vertical fluid menu">
+      <Link to="/orgints/">
       <div className="ui card centered">
         <div className="image">
-          <img src={osint} alt="osint" />
+          <img src={orgint} alt="orgint" />
         </div>
         <div className="content">
           <div className="header">ORGINT</div>
         </div>
       </div>
+      </Link>
       </div>
     </div>
 
     <div className="column">
       <div className="ui vertical fluid menu">
+        
       <div className="ui card centered">
         <div className="image">
           <img src={documentation} alt="documentation" />

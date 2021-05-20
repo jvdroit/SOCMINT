@@ -1,0 +1,218 @@
+{
+  "kind": "collectionType",
+  "collectionName": "orgints",
+  "info": {
+    "name": "Orgint",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+
+    "company_name": {
+      "type": "text"
+    },
+
+    "company_wiki": {
+      "type": "text"
+    },
+
+    "mission_statement": {
+      "type": "text"
+    },
+
+    "timezone": {
+      "type": "text"
+    },
+
+    "business_numbers": {
+      "type": "biginteger"
+    },
+
+    "status": {
+      "type": "text"
+    },
+
+    "jurisdiction": {
+      "type": "text"
+    },
+
+    "registered_address": {
+      "type": "text"
+    },
+
+    "estimated_employee_count": {
+      "type": "biginteger"
+    },
+
+    "category": {
+      "type": "text"
+    },
+
+    "traded_as": {
+      "type": "text"
+    },
+
+    "industry": {
+      "type": "text"
+    },
+    
+    "incorporation_date": {
+      "type": "text"
+    },
+
+    "incorporation_location": {
+      "type": "text"
+    },
+
+    "founded_by": {
+      "type": "text"
+    },  
+
+    "ceo": {
+      "type": "text"
+    },
+
+    "coo": {
+      "type": "text"
+    },
+
+    "cto": {
+      "type": "text"
+    },
+
+    "ciso": {
+      "type": "text"
+    },
+
+    "company_homepage": {
+      "type": "text"
+    },
+
+    "company_blog": {
+      "type": "text"
+    },
+
+    "known_vendors": {
+      "type": "text"
+    },
+
+    "known_clients": {
+      "type": "text"
+    },
+
+    "known_breaches": {
+      "type": "text"
+    },
+
+    "known_employees": {
+      "type": "text"
+    },
+
+    "contact_us_email": {
+      "type": "email"
+    },
+
+    "contact_us_phone": {
+      "type": "biginteger"
+    },
+
+    "known_legal_issues": {
+      "type": "text"
+    },
+
+    "known_scandals": {
+      "type": "text"
+    },
+
+    "known_news": {
+      "type": "text"
+    },
+
+    "asn_blocks": {
+      "type": "richtext"
+    },
+
+    "ip_ranges": {
+      "type": "richtext"
+    },
+
+    "subdomains": {
+      "type": "richtext"
+    },
+
+    "open_ports": {
+      "type": "richtext"
+    },
+
+    "github": {
+      "type": "text"
+    },
+
+    "email_spoofcheck": {
+      "type": "text"
+    },
+
+    "company_facebook": {
+      "type": "text"
+    },
+
+    "company_twitter": {
+      "type": "richtext"
+    },
+
+    "company_instagram": {
+      "type": "richtext"
+    },
+
+    "company_glassdoor": {
+      "type": "richtext"
+    },
+
+    "known_web_technologies": {
+      "type": "richtext"
+    },
+
+    "known_cloud_services": {
+      "type": "text"
+    },
+
+    "known_email_provider": {
+      "type": "text"
+    },
+
+    "known_charities": {
+      "type": "text"
+    },
+
+    "known_donations": {
+      "type": "text"
+    },
+
+    "known_donors": {
+      "type": "text"
+    },
+
+    "known_investors": {
+      "type": "richtext"
+    },
+
+    "transportation_services": {
+      "type": "text"
+    },
+
+    "known_ddos_protections": {
+      "type": "text"
+    },
+
+    "known_waf": {
+      "type": "text"
+    }
+
+
+  } 
+  
+}
