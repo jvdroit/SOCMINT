@@ -125,7 +125,7 @@ const HumintDetail = (props) => {
 
         <Link to="/humints/">
           <button className="ui inverted button secondary center">
-            Back to Humint List
+            Back to HUMINT List
           </button>
         </Link>
         
