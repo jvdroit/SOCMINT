@@ -78,7 +78,7 @@ Now including:
 * Strapi CMS using sqlite by default for persistence
 * Knowledge base full of OSINT resources based on the work of Michael Bazzel
 * HUMINT entries currently include 30+ topics
-* ORGINT entries will include 50+ topics
+* ORGINT entries currently include 50+ topics
 
 
 A list of commonly used resources that I find helpful are listed in the acknowledgements.
