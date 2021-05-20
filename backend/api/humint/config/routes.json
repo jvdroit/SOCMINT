@@ -47,6 +47,54 @@
       "config": {
         "policies": []
       }
+    },
+    {
+      "method": "GET",
+      "path": "/orgints",
+      "handler": "orgint.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/orgints/count",
+      "handler": "orgint.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/orgints/:id",
+      "handler": "orgint.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/orgints",
+      "handler": "orgint.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/orgints/:id",
+      "handler": "orgint.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/orgints/:id",
+      "handler": "orgint.delete",
+      "config": {
+        "policies": []
+      }
     }
   ]
 }
